@@ -13,7 +13,7 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: my-springboot-app
+      - name: mydockerrepo
         image: 914072551401.dkr.ecr.us-east-2.amazonaws.com/mydockerrepo
         imagePullPolicy: Always
         ports:
